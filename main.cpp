@@ -1,9 +1,15 @@
+/*
+*Questo programma è per trovare la massima sequenza di zeri 
+*che si possono trovare in una sequenza di numeri binaria(N.Neccessariamente) 
+*il programma può essere ottimazato(miglioramento performance) utilizzando l'HashMap e distinguere le condizioni una dall'altra.
+*/
+
 #include<iostream>
 using namespace std;
 int main() {
 
-int element = 0, conta = 0, x;
-cin >> x;
+int element = 0, conta = 0;
+
 int arr[] = {0,1,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0};
 int size = sizeof(arr)/sizeof(arr[0]);
 int *count = new int[size];
