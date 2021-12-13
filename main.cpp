@@ -40,5 +40,6 @@ int t = count[0];
   }
 
 cout << t;
+delete[] count;
 return 0;
 }
